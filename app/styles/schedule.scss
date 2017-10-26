@@ -1,0 +1,50 @@
+.separation_wrapper{
+	margin:{
+		top: 60px;
+	}
+}
+
+.separation_box{
+	width: 100%;
+	text-align: center;
+	.separation_icon{
+		margin:{
+			bottom: 36px;
+		}
+	}
+	.separation-box_title{
+		display: block;
+		margin:{
+			bottom: 22px;
+		}
+		font:{
+			size: 26.6px;
+			weight: 400;
+		}
+	}
+	.separation-box_class{
+		display: block;
+		width: 100%;
+		.separation_class_item{
+			color: #245e62;
+			display: inline-block;
+			vertical-align: middle;
+			margin:{
+				right: 15px;
+			}
+			font:{
+				size: 24.05px;
+				weight: 400;
+			}
+			&:last-child{
+				margin:{
+					right: 0px;
+				}
+			}
+			&:after{
+				content: " курс";
+				font-size: 14.43px;
+			}
+		}
+	}
+}
