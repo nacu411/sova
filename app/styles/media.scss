@@ -1,0 +1,135 @@
+@media only screen and (max-width: 1200px) {
+    .header{
+    	.hlw{
+    		.hlw_link{
+    			margin-right: 13px;
+    		}
+    		.hlw_desc{
+    			font-size: 13px;
+    		}
+    		.hlw_title{
+    			font-size: 26px;
+    		}
+    	}
+    	.h_nav{
+    		ul{
+    			li{
+    				a{
+    					font-size: 17px;
+    				}
+    			}
+    		}
+    	}
+    }
+    .contacts-wrapper{
+    	.contacts-item_adress,
+    	.contacts-item_phone{
+    		padding:{
+    			left: 20px;
+    		}
+    		&:before{
+    			left: -13px;
+    		}
+    	}
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .header{
+    	height: auto;
+        position: relative;
+    	.hlw{
+    		display: block;
+    		text-align: center;
+    		.hlw_link{
+    			float: none;
+    			display: block;
+    			margin:{
+    				bottom: 15px;
+    			}
+    		}
+    		.hlw_desc,
+    		.hlw_title{
+    			float: none;
+
+    		}
+    	}
+    	.h_contacts{
+    		text-align: center;
+    		margin:{
+    			top: 15px;
+    		}
+    	}
+    	.h_nav{
+    		text-align: center;
+    		.sub-menu{
+    			text-align: left;
+    		}
+    	}
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .post_wrapper{
+    	width: 60%;
+    	margin: 0 auto 50px;
+    }
+    .contacts-wrapper{
+    	.contacts-item_vk{
+    		a{
+    			&:before{
+    				top: -35px;
+    				left: 0px;
+    				right: 0px;
+    				margin: auto;
+    			}
+    		}
+    	}
+    	.contacts-item_adress,
+    	.contacts-item_phone{
+    		text-align: center;
+    		margin:{
+    			top: 75px;
+    		}
+    		&:before{
+    			top: -45px;
+    			left: 0px;
+    			right: 0px;
+    			margin: auto;
+    			width: 35px;
+    			height: 35px;
+    		}
+    	}
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .post_wrapper{
+    	width: 80%;
+    	margin: 0 auto 50px;
+    }
+    .banner{
+        .banner_title{
+            font-size: 121px;
+        }
+        .banner_desc{
+            font-size: 13.4px;
+        }
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    .banner{
+        display: none;
+    }
+    .page_title{
+        font-size: 2.5em;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .post_wrapper{
+    	width: 95%;
+    	margin: 0 auto 50px;
+    }
+}
